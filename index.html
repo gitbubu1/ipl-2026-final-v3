@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL 2026 Winner Guess</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <!-- BEAUTIFUL LOADING ANIMATION -->
+    <div id="loader">
+        <div class="loader-circle"></div>
+        <h2>IPL 2026 Predictor...</h2>
+    </div>
+
+    <main id="app" style="display:none;">
+        
+        <h1 id="winner" class="card">Click Predict!</h1>
+
+        <img id="logo" class="logo" src="" alt="">
+
+        <button id="predictBtn">Predict Winner</button>
+
+        <!-- Who Will Win Banner -->
+        <h2>Who Will Win IPL 2026?</h2>
+        <img id="banner" class="banner" src="" alt="">
+    </main>
+
+    <!-- Sound Effects -->
+    <audio id="crowd" src="./sounds/crowd.mp3"></audio>
+    <audio id="whistle" src="./sounds/whistle.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
